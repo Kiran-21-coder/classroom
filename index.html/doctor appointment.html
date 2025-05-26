@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment Form</title>
+ 
+    <link rel="stylesheet" href="./doctor.css">
+</head>
+<body>
+    <div class="container">
+        <div id="doctor-image">
+            <img src="./dr.png" alt="Doctor" height="900px" width="600px">
+        </div>
+        <div class="form-container">
+            <h2>Doctor Appointment Form</h2>
+            <form>
+                <label>Appointment Date:</label>
+                <input type="date" name="appointment_date">
+
+                <label>Appointment Time:</label>
+                <input type="time" name="appointment_time">
+
+                <label>Name:</label>
+                <div class="inline">
+                    <input type="text" name="first_name" placeholder="First">
+                </div>
+                <div class="inline" >
+                    <input type="text" name="last_name" placeholder="Last">
+                </div>
+
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="others"> Others
+
+                <label>Phone:</label>
+                <input type="tel" name="phone" placeholder="Phone number">
+
+                <label>Address:</label>
+                <input type="text" name="city" placeholder="City">
+                <input type="text" name="state" placeholder="State">
+
+                <label>Your Query:</label>
+                <textarea name="query" rows="4"></textarea>
+
+                <div class="checkbox-group">
+                    <label>Appointment Type:</label>
+                    <input type="checkbox" name="checkup" value="cervix"> Cervix checkup<br>
+                    <input type="checkbox" name="checkup" value="heart"> Heart checkup<br>
+                    <input type="checkbox" name="checkup" value="eye"> Eye check-up<br>
+                    <input type="checkbox" name="checkup" value="hearing"> Hearing Test
+                </div>
+
+                <input class="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    h1 {
+      font-size: 60px;
+      margin-bottom:20px;
+      text-align: center;
+      font-family: "arial";
+      color: red;
+    }
+
+    #container {
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+      border: 3px solid black;
+      padding:10px 0 10px 0; 
+      background: #cf6508;
+      height: 220px;
+    }
+
+    .content {
+      display: inline-block;
+      animation: scroll 15s linear infinite; 
+      
+    }
+
+  
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    img{
+        height: 200px;
+      width:200px;
+      margin: 0 10px 0 0;
+      border-radius: 10px;
+    }

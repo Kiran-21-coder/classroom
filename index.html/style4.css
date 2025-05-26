@@ -1,0 +1,41 @@
+
+ /* div{
+   background-color: rgb(4, 106, 106);
+   display: flex;
+   /* display:inline-block;} */
+
+
+a{
+   text-decoration: none;
+
+}
+li{
+   list-style: none;
+   display: inline;
+   color:red;
+}
+
+.navbar{
+   background-color: greenyellow;
+   display:flex;
+   justify-content:space-evenly;
+
+
+}
+
+.container{
+   height: 400px;
+   width: 400px;
+   background-color: rgb(46, 117, 217);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.inner{
+   height: 200px;
+   width:200px;
+   background-color: rgb(212, 232, 61);
+   
+}
+

@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: dashed;
+}
+.classic-table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  background-color: #a9e5e1;
+  text-align: left;
+}
+
+.classic-table th, .classic-table td {
+  border: 2px solid #170000;
+  /* padding: 10px;
+  font-weight: bold; */
+}

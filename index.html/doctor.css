@@ -1,0 +1,39 @@
+  body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        #doctor-image {
+            margin-right: 40px;
+            
+        }
+        .form-container {
+            max-width: 600px;
+        }
+        h2 {
+            color: darkmagenta;
+            border-bottom: 2px solid pink;
+            padding-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        .inline {
+            display: inline-block;
+            width: 48%;
+        }
+        .checkbox-group {
+            margin-top: 10px;
+        }
+        .submit-btn {
+            margin-top: 15px;
+        }
